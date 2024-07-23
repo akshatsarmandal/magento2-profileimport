@@ -1,4 +1,4 @@
-Import Customer with cron command in CSV or JSON format
+Import Customer with command in CSV or JSON format
  - Unzip the zip file in `app/code/Vml/CustomerImport`
  - Enable the module by running `php bin/magento module:enable Vml_CustomerImport`
 
