@@ -1,0 +1,42 @@
+{
+    "name": "vml/magento2-profileimport",
+    "description": "Customer Profile Import using CSV and JSON",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Akshat Sarmandal",
+            "email": "akshatsarmandal11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"1.0",
+    "require": {
+        "php": ">=8.0.0",
+        "magento/module-customer": "103.0.*",
+        "magento/module-customer-import-export": "100.4.*"
+    },
+    "repositories": [
+	{
+	    "type": "package",
+	    "package": {
+	        "name": "vml/magento2-module-profileimport",
+	        "version": "1.0",
+	        "source": {
+	            "url": "https://github.com/akshatsarmandal/vml-magento2-profileimport.git",
+	            "type": "git",
+	            "reference": "main"
+	        }
+	    }
+	}
+	],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VML\\CustomerImport\\": ""
+        }
+    }
+}
