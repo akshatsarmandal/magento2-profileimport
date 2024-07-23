@@ -1,5 +1,5 @@
 {
-    "name": "VML/magento2-profileimport",
+    "name": "Aml/magento2-profileimport",
     "description": "Customer Profile Import using CSV and JSON",
     "type": "magento2-module",
     "license": "Apache-2.0",
@@ -21,7 +21,7 @@
 	{
 	    "type": "package",
 	    "package": {
-	        "name": "VML/magento2-module-profileimport",
+	        "name": "Aml/magento2-module-profileimport",
 	        "version": "1.0",
 	        "source": {
 	            "url": "https://github.com/akshatsarmandal/vml-magento2-profileimport.git",
