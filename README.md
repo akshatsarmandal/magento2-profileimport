@@ -4,7 +4,7 @@ Import Customer with command in CSV or JSON format
 
 ### Type 2: Composer
 
- - Install the module composer by running `composer require vml/magento2-module-customerimport`
+ - Install the module composer by running `composer require aml/magento2-profileimport`
  - Enable the module by running `php bin/magento module:enable Vml_CustomerImport`
  - Run Magento commands by running
 
